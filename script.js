@@ -648,13 +648,8 @@ document.querySelector('.bmi-result').addEventListener('mouseleave', function() 
 
 // Console welcome message
 console.log(`
-🏥 T4-Frontend - Aplikasi Kesehatan Sederhana
-📊 Sistem Perhitungan BMI dengan Analisis Kesehatan
 🔗 Backend Integration: ${API_CONFIG.BASE_URL}${API_CONFIG.API_BASE_PATH}
 � Backend Environment: ${API_CONFIG.BASE_URL}
 📡 API Version: ${API_CONFIG.API_VERSION}
-�🎨 Design: Modern Black & Red Theme
-💻 Developed with ❤️ using HTML, CSS, JavaScript
-🚀 100% Backend Processing - No Local BMI Calculation!
 ⚡ Timeout: ${API_CONFIG.TIMEOUT/1000}s | Retry: ${API_CONFIG.RETRY_ATTEMPTS}x
 `);
